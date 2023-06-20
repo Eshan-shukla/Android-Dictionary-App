@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Dictionary app</string>
+    <string name="error_name">username already exists!</string>
+    <string name="error_pass">passwords do not match!</string>
+    <string name="error_length">length of password must be greater than 9 characters</string>
+    <string name="err">invalid username or password</string>
+    <string name="username">Enter Username</string>
+    <string name="password">Enter Password</string>
+    <string name="info">By Signing up, you can help users by adding new words into the app.</string>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="1"
+    tools:context=".Signup">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="90dp"
+        app:srcCompat="@drawable/image" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:inputType="textPersonName"
+        android:layout_marginTop="25dp"
+        android:hint="Enter Username"
+        android:layout_marginLeft="5dp"
+        android:text="" />
+
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:inputType="textPassword"
+        android:layout_height="55dp"
+        android:hint="Password"
+        android:layout_marginLeft="5dp"
+        android:text="" />
+
+
+
+    <EditText
+        android:id="@+id/RePassword"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:inputType="textPassword"
+        android:layout_marginLeft="5dp"
+        android:hint="Retype Password"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/errorPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/red"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/errorLength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/red"
+        android:text="" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="13dp"
+        android:backgroundTint="@color/blue"
+        android:bottomRightRadius="150dp"
+        android:bottomLeftRadius="150dp"
+        android:topLeftRadius="150dp"
+        android:topRightRadius="150dp"
+
+        android:text="Register" />
+
+
+</GridLayout>

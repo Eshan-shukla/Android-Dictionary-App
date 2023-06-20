@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="1"
+    tools:context=".WordEntry">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:layout_marginLeft="15dp"
+        android:text="Enter Word" />
+
+
+
+    <EditText
+        android:id="@+id/word"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:hint="Word"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName" />
+
+
+
+    <EditText
+        android:id="@+id/category"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:hint="Category"
+        android:inputType="textPersonName" />
+
+
+
+    <EditText
+        android:id="@+id/meaning"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:hint="Meaning"
+        android:gravity="start|top"
+        android:layout_marginTop="10dp"
+        android:inputType="textMultiLine" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/insert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="100dp"
+            android:backgroundTint="@color/black"
+            android:text="Insert" />
+
+        <Button
+            android:id="@+id/user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:layout_marginLeft="20dp"
+            android:text="home" />
+    </LinearLayout>
+
+
+</GridLayout>
